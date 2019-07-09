@@ -1,0 +1,3 @@
+rofi.font:          Noto Mono 9
+rofi.theme:         ~/.cache/wal/colors-rofi-dark.rasi
+

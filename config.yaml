@@ -1,0 +1,52 @@
+config:
+  backup: true
+  create: true
+  dotpath: dotfiles
+dotfiles:
+  d_i3:
+    src: config/i3
+    dst: ~/.config/i3
+  d_alacritty:
+    src: config/alacritty
+    dst: ~/.config/alacritty
+  d_polybar:
+    src: config/polybar
+    dst: ~/.config/polybar
+  d_wal:
+    src: config/wal
+    dst: ~/.config/wal
+  d_rofi:
+    src: config/rofi
+    dst: ~/.config/rofi
+  f_zshenv:
+    src: zshenv
+    dst: ~/.zshenv
+  f_zshrc:
+    src: zshrc
+    dst: ~/.zshrc
+  f_zpreztorc:
+    src: zpreztorc
+    dst: ~/.zpreztorc
+  f_xinitrc:
+    src: xinitrc
+    dst: ~/.xinitrc
+  d_lock:
+    src: local/src/lock
+    dst: ~/.local/src/lock
+  f_init.vim:
+    src: config/nvim/init.vim
+    dst: ~/.config/nvim/init.vim
+profiles:
+  CYCLONE:
+    dotfiles:
+    - d_i3
+    - d_alacritty
+    - d_polybar
+    - d_wal
+    - d_rofi
+    - f_zshenv
+    - f_zshrc
+    - f_zpreztorc
+    - f_xinitrc
+    - d_lock
+    - f_init.vim
