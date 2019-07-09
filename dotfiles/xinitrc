@@ -20,5 +20,5 @@ $HOME/.fehbg &
 #export XMODIFIERS=@im=fcitx
 #fcitx &
 redshift &
-
+xset -b
 exec i3

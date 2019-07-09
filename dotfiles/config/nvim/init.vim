@@ -47,13 +47,6 @@ au FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 let g:livepreview_previewer = 'zathura'
 
-" Auto commands
-augroup latex
-    au!
-    au BufWritePost *.tex silent make
-    au VimLeave *.tex silent make clean
-augroup END
-
 " Keybindings
 map <C-o> :NERDTreeToggle<CR>
 
