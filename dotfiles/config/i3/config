@@ -158,7 +158,7 @@ bindsym $mod+shift+8 move container to workspace $ws8
 # Open applications on specific workspaces
 assign [class="Sublime_text"] $ws2
 assign [class="Brave-browser"] $ws3
-assign [class="firefox"] $ws4
+assign [class="Firefox"] $ws4
 assign [class="Steam"] $ws5
 
 ### Bar ###
