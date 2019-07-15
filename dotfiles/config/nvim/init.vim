@@ -50,4 +50,8 @@ let g:livepreview_previewer = 'zathura'
 " Keybindings
 map <C-o> :NERDTreeToggle<CR>
 
-
+" i3 Config Syntax
+aug i3config_ft_detection
+  au!
+  au BufNewFile,BufRead ~/.config/i3/config set filetype=i3config
+aug end
