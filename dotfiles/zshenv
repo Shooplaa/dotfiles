@@ -45,6 +45,7 @@ fi
 path=(
   /usr/local/{bin,sbin}
   $HOME/.local/bin
+  $HOME/go/bin
   $path
 )
 

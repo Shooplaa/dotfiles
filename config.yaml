@@ -36,6 +36,9 @@ dotfiles:
   f_init.vim:
     src: config/nvim/init.vim
     dst: ~/.config/nvim/init.vim
+  f_rc.conf:
+    src: config/ranger/rc.conf
+    dst: ~/.config/ranger/rc.conf
 profiles:
   CYCLONE:
     dotfiles:
@@ -50,3 +53,4 @@ profiles:
     - f_xinitrc
     - d_lock
     - f_init.vim
+    - f_rc.conf

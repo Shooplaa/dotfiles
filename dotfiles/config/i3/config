@@ -51,7 +51,7 @@ client.placeholder	    $color6 $background	$foreground	$color6	$color6
 ### PROGRAM BINDINGS ###
 
 bindsym $mod+Return exec alacritty
-bindsym $mod+m exec firefox
+bindsym $mod+m exec firefox -P
 bindsym $mod+e exec alacritty -e ranger
 bindsym $mod+d exec --no-startup-id rofi -show run
 bindsym $mod+n exec subl
