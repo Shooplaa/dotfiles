@@ -17,3 +17,5 @@ fi
 unsetopt correct
 
 eval $(thefuck --alias)
+alias copy="xclip -sel clip"
+alias bird="curl parrot.live"

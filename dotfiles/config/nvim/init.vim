@@ -1,5 +1,12 @@
 " Plugins
-execute pathogen#infect()
+call plug#begin('~/.local/share/nvim/plugged')
+Plug 'donRaphaco/neotex', { 'for': 'tex' }
+Plug 'scrooloose/nerdtree'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'tpope/vim-surround'
+Plug 'dylanaraps/wal.vim'
+
+call plug#end()
 
 " UI
 syntax on
